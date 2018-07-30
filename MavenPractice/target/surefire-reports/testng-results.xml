@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.Bugzilla.TestNGBasics" duration-ms="87" started-at="2018-07-28T19:00:56Z" finished-at="2018-07-28T19:00:56Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="87" started-at="2018-07-28T19:00:56Z" finished-at="2018-07-28T19:00:56Z">
+      <class name="com.Bugzilla.TestNGBasics">
+        <test-method status="PASS" signature="sum()[pri:5, instance:com.Bugzilla.TestNGBasics@4157f54e]" name="sum" duration-ms="13" started-at="2018-07-28T19:00:56Z" finished-at="2018-07-28T19:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="difference()[pri:12, instance:com.Bugzilla.TestNGBasics@4157f54e]" name="difference" duration-ms="0" started-at="2018-07-28T19:00:56Z" finished-at="2018-07-28T19:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- difference -->
+        <test-method status="PASS" signature="division()[pri:29, instance:com.Bugzilla.TestNGBasics@4157f54e]" name="division" duration-ms="0" started-at="2018-07-28T19:00:56Z" finished-at="2018-07-28T19:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- division -->
+        <test-method status="PASS" signature="multi()[pri:23, instance:com.Bugzilla.TestNGBasics@4157f54e]" name="multi" duration-ms="0" started-at="2018-07-28T19:00:56Z" depends-on-methods="com.Bugzilla.TestNGBasics.division" finished-at="2018-07-28T19:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi -->
+      </class> <!-- com.Bugzilla.TestNGBasics -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.Bugzilla.TestNGBasics -->
+</testng-results>
