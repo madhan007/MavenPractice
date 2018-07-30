@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77" started-at="2018-07-30T12:31:17Z" finished-at="2018-07-30T12:31:17Z">
+  <suite name="Suite" duration-ms="66" started-at="2018-07-30T12:41:09Z" finished-at="2018-07-30T12:41:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77" started-at="2018-07-30T12:31:17Z" finished-at="2018-07-30T12:31:17Z">
+    <test name="Test" duration-ms="66" started-at="2018-07-30T12:41:09Z" finished-at="2018-07-30T12:41:10Z">
       <class name="com.Bugzilla.TC_LoginTest_001">
-        <test-method status="PASS" signature="loginTestDemo()[pri:0, instance:com.Bugzilla.TC_LoginTest_001@25af5db5]" name="loginTestDemo" duration-ms="25" started-at="2018-07-30T12:31:17Z" finished-at="2018-07-30T12:31:17Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Bugzilla.TC_LoginTest_001@25af5db5]" name="loginTest" duration-ms="17" started-at="2018-07-30T12:41:09Z" finished-at="2018-07-30T12:41:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTestDemo -->
+        </test-method> <!-- loginTest -->
       </class> <!-- com.Bugzilla.TC_LoginTest_001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

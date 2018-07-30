@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="com.Bugzilla.TestNGBasics" duration-ms="79" started-at="2018-07-30T12:34:26Z" finished-at="2018-07-30T12:34:26Z">
+  <suite name="com.Bugzilla.TestNGBasics" duration-ms="136" started-at="2018-07-30T12:41:45Z" finished-at="2018-07-30T12:41:46Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="79" started-at="2018-07-30T12:34:26Z" finished-at="2018-07-30T12:34:26Z">
+    <test name="Command line test" duration-ms="136" started-at="2018-07-30T12:41:45Z" finished-at="2018-07-30T12:41:46Z">
       <class name="com.Bugzilla.TestNGBasics">
-        <test-method status="PASS" signature="sum()[pri:5, instance:com.Bugzilla.TestNGBasics@4157f54e]" name="sum" duration-ms="16" started-at="2018-07-30T12:34:26Z" finished-at="2018-07-30T12:34:26Z">
+        <test-method status="PASS" signature="sum()[pri:5, instance:com.Bugzilla.TestNGBasics@4157f54e]" name="sum" duration-ms="28" started-at="2018-07-30T12:41:45Z" finished-at="2018-07-30T12:41:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="difference()[pri:12, instance:com.Bugzilla.TestNGBasics@4157f54e]" name="difference" duration-ms="0" started-at="2018-07-30T12:34:26Z" finished-at="2018-07-30T12:34:26Z">
+        <test-method status="PASS" signature="difference()[pri:12, instance:com.Bugzilla.TestNGBasics@4157f54e]" name="difference" duration-ms="1" started-at="2018-07-30T12:41:45Z" finished-at="2018-07-30T12:41:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- difference -->
-        <test-method status="PASS" signature="division()[pri:29, instance:com.Bugzilla.TestNGBasics@4157f54e]" name="division" duration-ms="1" started-at="2018-07-30T12:34:26Z" finished-at="2018-07-30T12:34:26Z">
+        <test-method status="PASS" signature="division()[pri:29, instance:com.Bugzilla.TestNGBasics@4157f54e]" name="division" duration-ms="2" started-at="2018-07-30T12:41:46Z" finished-at="2018-07-30T12:41:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- division -->
-        <test-method status="PASS" signature="multi()[pri:23, instance:com.Bugzilla.TestNGBasics@4157f54e]" name="multi" duration-ms="1" started-at="2018-07-30T12:34:26Z" depends-on-methods="com.Bugzilla.TestNGBasics.division" finished-at="2018-07-30T12:34:26Z">
+        <test-method status="PASS" signature="multi()[pri:23, instance:com.Bugzilla.TestNGBasics@4157f54e]" name="multi" duration-ms="2" started-at="2018-07-30T12:41:46Z" depends-on-methods="com.Bugzilla.TestNGBasics.division" finished-at="2018-07-30T12:41:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multi -->
