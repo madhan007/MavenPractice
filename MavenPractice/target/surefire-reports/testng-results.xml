@@ -1,43 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="94" started-at="2018-08-02T12:29:12Z" finished-at="2018-08-02T12:29:12Z">
+  <suite name="Suite" duration-ms="59" started-at="2018-08-02T13:21:05Z" finished-at="2018-08-02T13:21:05Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="94" started-at="2018-08-02T12:29:12Z" finished-at="2018-08-02T12:29:12Z">
+    <test name="Test" duration-ms="59" started-at="2018-08-02T13:21:05Z" finished-at="2018-08-02T13:21:05Z">
+      <class name="com.Bugzilla.GitHubTest">
+        <test-method status="PASS" signature="gHtest()[pri:0, instance:com.Bugzilla.GitHubTest@1efed156]" name="gHtest" duration-ms="0" started-at="2018-08-02T13:21:05Z" finished-at="2018-08-02T13:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gHtest -->
+      </class> <!-- com.Bugzilla.GitHubTest -->
       <class name="com.Bugzilla.TC_LoginTest">
-        <test-method status="PASS" signature="loginTest1()[pri:0, instance:com.Bugzilla.TC_LoginTest@90f6bfd]" name="loginTest1" duration-ms="0" started-at="2018-08-02T12:29:12Z" finished-at="2018-08-02T12:29:12Z">
+        <test-method status="PASS" signature="loginTest1()[pri:0, instance:com.Bugzilla.TC_LoginTest@63e2203c]" name="loginTest1" duration-ms="16" started-at="2018-08-02T13:21:05Z" finished-at="2018-08-02T13:21:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest1 -->
-        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.Bugzilla.TC_LoginTest@90f6bfd]" name="loginTest" duration-ms="16" started-at="2018-08-02T12:29:12Z" finished-at="2018-08-02T12:29:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest2()[pri:0, instance:com.Bugzilla.TC_LoginTest@90f6bfd]" name="loginTest2" duration-ms="0" started-at="2018-08-02T12:29:12Z" finished-at="2018-08-02T12:29:12Z">
+        <test-method status="PASS" signature="loginTest2()[pri:0, instance:com.Bugzilla.TC_LoginTest@63e2203c]" name="loginTest2" duration-ms="0" started-at="2018-08-02T13:21:05Z" finished-at="2018-08-02T13:21:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest2 -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.Bugzilla.TC_LoginTest@63e2203c]" name="loginTest" duration-ms="0" started-at="2018-08-02T13:21:05Z" finished-at="2018-08-02T13:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
       </class> <!-- com.Bugzilla.TC_LoginTest -->
       <class name="com.Bugzilla.TestNGBasics">
-        <test-method status="PASS" signature="difference()[pri:12, instance:com.Bugzilla.TestNGBasics@47f6473]" name="difference" duration-ms="0" started-at="2018-08-02T12:29:12Z" finished-at="2018-08-02T12:29:12Z">
+        <test-method status="PASS" signature="difference()[pri:12, instance:com.Bugzilla.TestNGBasics@6737fd8f]" name="difference" duration-ms="0" started-at="2018-08-02T13:21:05Z" finished-at="2018-08-02T13:21:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- difference -->
-        <test-method status="PASS" signature="multi()[pri:23, instance:com.Bugzilla.TestNGBasics@47f6473]" name="multi" duration-ms="0" started-at="2018-08-02T12:29:12Z" depends-on-methods="com.Bugzilla.TestNGBasics.division" finished-at="2018-08-02T12:29:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multi -->
-        <test-method status="PASS" signature="sum()[pri:5, instance:com.Bugzilla.TestNGBasics@47f6473]" name="sum" duration-ms="0" started-at="2018-08-02T12:29:12Z" finished-at="2018-08-02T12:29:12Z">
+        <test-method status="PASS" signature="sum()[pri:5, instance:com.Bugzilla.TestNGBasics@6737fd8f]" name="sum" duration-ms="0" started-at="2018-08-02T13:21:05Z" finished-at="2018-08-02T13:21:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method status="PASS" signature="division()[pri:29, instance:com.Bugzilla.TestNGBasics@47f6473]" name="division" duration-ms="0" started-at="2018-08-02T12:29:12Z" finished-at="2018-08-02T12:29:12Z">
+        <test-method status="PASS" signature="multi()[pri:23, instance:com.Bugzilla.TestNGBasics@6737fd8f]" name="multi" duration-ms="0" started-at="2018-08-02T13:21:05Z" depends-on-methods="com.Bugzilla.TestNGBasics.division" finished-at="2018-08-02T13:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi -->
+        <test-method status="PASS" signature="division()[pri:29, instance:com.Bugzilla.TestNGBasics@6737fd8f]" name="division" duration-ms="0" started-at="2018-08-02T13:21:05Z" finished-at="2018-08-02T13:21:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- division -->
       </class> <!-- com.Bugzilla.TestNGBasics -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

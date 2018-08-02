@@ -1,2 +1,3 @@
+com\Bugzilla\GitHubTest.class
 com\Bugzilla\TC_LoginTest.class
 com\Bugzilla\TestNGBasics.class
