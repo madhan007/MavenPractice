@@ -2,7 +2,7 @@ package com.Bugzilla;
 
 import org.testng.annotations.Test;
 
-public class TestNGBasics {
+public class TestNGBasics {  
 	
 	@Test(priority=5,enabled=true)
 	public void sum() {
