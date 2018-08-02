@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.Bugzilla.TC_LoginTest"/>
+      <class name="com.Bugzilla.GitHubTest"/>
+      <class name="com.Bugzilla.TestNGBasics"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
